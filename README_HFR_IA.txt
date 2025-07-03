@@ -1,13 +1,13 @@
 For using the AI/HFR project:
 ======================================================================================================
 Data:
-  --> PAb/PAO       # All available data for both HFRs from 2013 to 2020
-  --> OGSL        # Tide gauge data
-  --> data_ref      # Copernicus data (currents, waves...) from initial tests
-  --> Bouée       # IML4 buoy data
-  --> data_station_météo # Weather station data from BIC
-  --> Point_PAB     # Data used in various test models and ERA5 data for PAB
-  --> Point_PAO     # Data used in various test models and ERA5 data for PAO
+  --> PAB/PAO       # All available data for both HFRs from 2013 to 2020 creat  with HFR WERA data with "Code Matlab processing HFR brut" and PAB_data/PAO_data and creation_data_liste
+  --> OGSL        # Tide gauge data downlaod in OGSL : https://ogsl.ca/conditions/?lg=fr
+  --> data_ref      # Copernicus data (currents, waves...) from initial tests downlaod in Copernicus data store : https://data.marine.copernicus.eu/products
+  --> Bouée       # IML4 buoy data downlaod in OGSL : https://ogsl.ca/conditions/?lg=fr , PMZA-RIKI
+  --> data_station_météo # Weather station data from BIC downlaod in OGSL : https://ogsl.ca/conditions/?lg=fr 
+  --> Point_PAB     # Data used in various test models and ERA5 data for PAB for specific points in PAB/PAO and download in ERA5 data store : https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview
+  --> Point_PAO     # Data used in various test models and ERA5 data for PAO for PAB for specific points in PAB/PAO and download in ERA5 data store : https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview
 ------------------------------------------------------------------------------------------------------
 LoadData:
   --> Def_et_Biblio   # Most of the definitions and libraries for this project
